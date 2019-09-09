@@ -14,7 +14,7 @@ help:
 
 .PHONY: help Makefile
 
-## Make sure guthub pages doe not apply jekyll
+## Make sure github pages doe not apply jekyll. ###DOES NOT WORK.
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	touch $(BUILDDIR)/html/.nojekyll
