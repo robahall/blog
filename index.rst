@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Rob's cloud-based machine learning tutorials !
-==============================================
+=========================================================
 
 .. toctree::
    :maxdepth: 2
