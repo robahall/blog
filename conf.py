@@ -17,7 +17,7 @@ import sphinx_material
 
 # -- Project information -----------------------------------------------------
 
-project = 'robahall.github.io'
+project = 'Cloud Based Machine Learning Tutorials'
 copyright = '2019, Rob Hall'
 author = 'Rob Hall'
 
@@ -27,8 +27,7 @@ author = 'Rob Hall'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['sphinx.ext.mathjax']
 extensions.append('sphinx_material')
 
 # Add any paths that contain templates here, relative to this directory.
@@ -64,13 +63,13 @@ html_theme_options = {
 
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
-    'base_url': 'https://project.github.io/project',
+    'base_url': 'https://www.robahall.com',
     # Set the color and the accent color
     'color_primary': 'green',
     'color_accent': 'light-green',
 
     # Set the repo location to get a badge with stats
-    'repo_url': 'https://github.com/project/project/',
+    'repo_url': 'https://github.com/robahall/robahall.github.io',
     'repo_name': 'Project',
 
     # Visible levels of the global TOC; -1 means unlimited
