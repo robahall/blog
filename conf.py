@@ -36,7 +36,7 @@ extensions = ['sphinx.ext.mathjax',
               'IPython.sphinxext.ipython_console_highlighting',
               'IPython.sphinxext.ipython_directive'
               ]
-extensions.append('sphinx_material')
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,6 +52,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #Set the theme to sphinx_material
+extensions.append('sphinx_material')
 html_theme = 'sphinx_material'
 
 # Get the theme path
@@ -81,9 +82,9 @@ html_theme_options = {
     'repo_name': 'Project',
 
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
+    'globaltoc_depth': 1,
     # If False, expand all TOC entries
-    'globaltoc_collapse': False,
+    'globaltoc_collapse': True,
     # If True, show hidden TOC entries
-    'globaltoc_includehidden': False
+    'globaltoc_includehidden': True
 }
