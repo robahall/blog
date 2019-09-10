@@ -27,7 +27,15 @@ author = 'Rob Hall'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.mathjax']
+extensions = ['sphinx.ext.mathjax',
+              'nbsphinx',
+              'sphinx.ext.viewcode',
+              # 'sphinx.ext.autosummary',
+              'sphinx.ext.inheritance_diagram',
+              'matplotlib.sphinxext.plot_directive',
+              'IPython.sphinxext.ipython_console_highlighting',
+              'IPython.sphinxext.ipython_directive'
+              ]
 extensions.append('sphinx_material')
 
 # Add any paths that contain templates here, relative to this directory.
