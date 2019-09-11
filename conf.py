@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 import sphinx_material
 
 # -- Project information -----------------------------------------------------
@@ -30,11 +30,12 @@ author = 'Rob Hall'
 extensions = ['sphinx.ext.mathjax',
               'nbsphinx',
               'sphinx.ext.viewcode',
+              'sphinx.ext.githubpages',
               # 'sphinx.ext.autosummary',
-              'sphinx.ext.inheritance_diagram', # Need to update these.
-              'matplotlib.sphinxext.plot_directive', # Need to update these.
-              'IPython.sphinxext.ipython_console_highlighting', # Need to update these.
-              'IPython.sphinxext.ipython_directive' # Need to update these.
+              'sphinx.ext.inheritance_diagram' # Need to update these.
+              #'matplotlib.sphinxext.plot_directive', # Need to update these.
+              #'IPython.sphinxext.ipython_console_highlighting' # Need to update these.
+              #'IPython.sphinxext.ipython_directive' # Need to update these.
               ]
 
 
