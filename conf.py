@@ -4,16 +4,20 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
+import contextlib
+import json
+import os
+import sys
+from os.path import dirname, join
+
+import sphinx_material
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-import os
-import sys
-sys.path.insert(0, os.path.abspath('.'))
-import sphinx_material
+sys.path.insert(0, os.path.abspath('../sphinxext'))
 
 # -- Project information -----------------------------------------------------
 
@@ -31,8 +35,8 @@ extensions = ['sphinx.ext.mathjax',
               'nbsphinx',
               'sphinx.ext.viewcode',
               'sphinx.ext.githubpages',
-              # 'sphinx.ext.autosummary',
-              'sphinx.ext.inheritance_diagram' # Need to update these.
+              'sphinx.ext.autosummary',
+              'sphinx.ext.inheritance_diagram'
               #'matplotlib.sphinxext.plot_directive', # Need to update these.
               #'IPython.sphinxext.ipython_console_highlighting' # Need to update these.
               #'IPython.sphinxext.ipython_directive' # Need to update these.
