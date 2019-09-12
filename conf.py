@@ -4,11 +4,10 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-import contextlib
-import json
+
 import os
 import sys
-from os.path import dirname, join
+
 
 import sphinx_material
 
@@ -36,7 +35,7 @@ extensions = ['sphinx.ext.mathjax',
               'sphinx.ext.viewcode',
               'sphinx.ext.githubpages',
               'sphinx.ext.autosummary',
-              'sphinx.ext.inheritance_diagram'
+              'sphinx.ext.inheritance_diagram',
               #'matplotlib.sphinxext.plot_directive', # Need to update these.
               #'IPython.sphinxext.ipython_console_highlighting' # Need to update these.
               #'IPython.sphinxext.ipython_directive' # Need to update these.
