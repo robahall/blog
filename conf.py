@@ -64,7 +64,7 @@ html_theme_path = sphinx_material.html_theme_path()
 # Register the required helpers for the html context
 html_context = sphinx_material.get_html_context()
 
-
+#Picture link: https://avatars0.githubusercontent.com/u/13205851?v=3&s=460
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
 
@@ -72,7 +72,7 @@ html_theme_options = {
     'nav_name': 'Project Name',
 
     # Set you GA account ID to enable tracking
-    'google_analytics_account': 'UA-XXXXX',
+    'google_analytics_account': 'UA-84085508-1',
 
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
