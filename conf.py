@@ -64,7 +64,7 @@ html_theme_path = sphinx_material.html_theme_path()
 # Register the required helpers for the html context
 html_context = sphinx_material.get_html_context()
 
-#Picture link: https://avatars0.githubusercontent.com/u/13205851?v=3&s=460
+#Picture link:
 # Material theme options (see theme.conf for more information)
 html_theme_options = {
 
@@ -92,3 +92,7 @@ html_theme_options = {
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True
 }
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+html_logo = 'https://avatars0.githubusercontent.com/u/13205851?v=3&s=460'
