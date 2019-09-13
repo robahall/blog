@@ -95,4 +95,5 @@ html_theme_options = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
+## Need to download this.
 html_logo = 'https://avatars0.githubusercontent.com/u/13205851?v=3&s=460'
