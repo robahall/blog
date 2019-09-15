@@ -6,11 +6,21 @@
 Welcome to Rob's cloud-based machine learning tutorials !
 =========================================================
 
+
+
+
+
+
+Building your first ML instance
+--------------------
+* Spin up your first instance: :ref: `first_instance`
+*
+
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :hidden:
 
-
+   gettingstarted
 
 Indices and tables
 ==================
