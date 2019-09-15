@@ -13,12 +13,13 @@ Welcome to Rob's cloud-based machine learning tutorials !
 
 Building your first ML instance
 --------------------
+* Set up your env: :ref: `gettingstarted`
 * Spin up your first instance: :ref: `first_instance`
 *
 
 
 .. toctree::
-   :hidden:
+   :maxdepth: 1
 
    gettingstarted
 
