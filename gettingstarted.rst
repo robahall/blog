@@ -1,3 +1,5 @@
+.. gettingstarted:
+
 Getting started
 ===============
 
