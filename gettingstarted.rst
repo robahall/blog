@@ -1,6 +1,6 @@
-..gettingstarted:
+.. _Getting Started:
 
 Getting started
-===============
+---------------
 
 Testing
