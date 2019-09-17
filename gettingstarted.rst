@@ -1,4 +1,4 @@
-.. gettingstarted:
+..gettingstarted:
 
 Getting started
 ===============
