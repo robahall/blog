@@ -10,6 +10,8 @@ Welcome to Rob's cloud-based machine learning tutorials !
    :hidden:
 
    gettingstarted
+   firstinstance
+
 
 
 
