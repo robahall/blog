@@ -9,8 +9,8 @@ Welcome to Rob's cloud-based machine learning tutorials !
 .. toctree::
    :hidden:
 
-   firstbuild/gettingstarted
-   firstbuild/firstinstance
+   _firstbuild/gettingstarted
+   _firstbuild/firstinstance
 
 
 
