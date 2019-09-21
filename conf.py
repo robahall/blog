@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../sphinxext'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'Cloud Based Machine Learning Tutorials'
+project = 'Cloud ML Tutorials'
 copyright = '2019, Rob Hall'
 author = 'Rob Hall'
 
