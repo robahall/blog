@@ -11,6 +11,7 @@ Welcome to Rob's cloud-based machine learning tutorials !
 
    _firstbuild/gettingstarted
    _firstbuild/firstinstance
+   _firstbuild/aws_connect
 
 
 
