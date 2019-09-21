@@ -7,8 +7,8 @@
 
 import os
 import sys
-import docutils
-import IPython
+import numpy as np
+import pandas as pd
 
 import sphinx_material
 
@@ -38,10 +38,10 @@ extensions = ['sphinx.ext.mathjax',
               'sphinx.ext.autosummary',
               'sphinx.ext.inheritance_diagram',
               'sphinx.ext.intersphinx',
-              'sphinx.ext.autosectionlabel',
+              'sphinx.ext.autosectionlabel'
               #'matplotlib.sphinxext.plot_directive',  # Need to update these.
-              'IPython.sphinxext.ipython_console_highlighting',  # Need to update these.
-              'IPython.sphinxext.ipython_directive'  # Need to update these.
+              #'IPython.sphinxext.ipython_console_highlighting',  # Need to update these.
+              #'IPython.sphinxext.ipython_directive'  # Need to update these.
               ]
 
 
@@ -51,7 +51,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build','**.ipynb_checkpoints', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
