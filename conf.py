@@ -7,7 +7,8 @@
 
 import os
 import sys
-
+import docutils
+import IPython
 
 import sphinx_material
 
@@ -37,10 +38,10 @@ extensions = ['sphinx.ext.mathjax',
               'sphinx.ext.autosummary',
               'sphinx.ext.inheritance_diagram',
               'sphinx.ext.intersphinx',
-              'sphinx.ext.autosectionlabel'
-              #'matplotlib.sphinxext.plot_directive', # Need to update these.
-              #'IPython.sphinxext.ipython_console_highlighting' # Need to update these.
-              #'IPython.sphinxext.ipython_directive' # Need to update these.
+              'sphinx.ext.autosectionlabel',
+              #'matplotlib.sphinxext.plot_directive',  # Need to update these.
+              'IPython.sphinxext.ipython_console_highlighting',  # Need to update these.
+              'IPython.sphinxext.ipython_directive'  # Need to update these.
               ]
 
 
