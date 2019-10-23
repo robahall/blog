@@ -15,6 +15,8 @@ For AWS:
 .. code-block:: bash
     conda create -n awsFromScratch anaconda boto3
     conda activate awsFromScratch
+    jupyter notebook
+
 
 .. code-block:: python
 
