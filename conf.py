@@ -70,7 +70,7 @@ html_context = sphinx_material.get_html_context()
 html_theme_options = {
 
     # Set the name of the project to appear in the navigation.
-    'nav_name': 'Project Name',
+    'nav_name': 'Cloud ML',
 
     # Set you GA account ID to enable tracking
     'google_analytics_account': 'UA-84085508-1',
